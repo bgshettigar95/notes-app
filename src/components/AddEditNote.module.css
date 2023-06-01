@@ -1,0 +1,97 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 0.75rem;
+  max-width: 500px;
+}
+
+.form-field-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.form-field {
+  background-color: transparent;
+  color: inherit;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 0.25rem;
+  border: none;
+  box-sizing: border-box;
+}
+
+.form-field:focus {
+  outline: none;
+}
+
+.form-field-note-initial {
+  width: calc(100% - 60px);
+}
+
+.listItems {
+  max-height: 200px;
+  overflow: auto;
+}
+.listItems::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: #424244; /* or add it to the track */
+}
+
+.listItems::-webkit-scrollbar-thumb {
+  background: #e8eaed;
+}
+.config {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.config-options {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  max-width: 200px;
+}
+
+.config-options-items {
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.config-options-items:hover {
+  background-color: #424244;
+  border-radius: 50%;
+}
+
+.bts-container {
+  display: flex;
+}
+
+.submit-btn {
+  background-color: transparent;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+
+.submit-btn:hover {
+  background-color: #424244;
+  border-radius: 5px;
+}
+
+.hide-controls {
+  display: none;
+}
